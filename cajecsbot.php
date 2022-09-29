@@ -1,7 +1,7 @@
 <?php
 include 'conn.php';  
 ob_start();  
-define('API_KEY','2006776430:AAE9MnoJLkz1TTHd37SnNKTqNuJjTXKQrns');
+define('API_KEY','TOKEN');
 
 function bot($method,$datas=[]){  
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -433,6 +433,6 @@ if($step == "bir2" && $menyu == "mom2"){
 
 
 
-/*https://api.telegram.org/bot2006776430:AAE9MnoJLkz1TTHd37SnNKTqNuJjTXKQrns/setWebhook?url=https://cajecs.com/cajecsbot/cajecsbot.php*/
-  //.ol($chat_id, $ism)." ".ol($chat_id, $otasiningIsmi)."!!!"
+/*https://api.telegram.org/botTOKEN/setWebhook?url=*/
+  
 ?>
