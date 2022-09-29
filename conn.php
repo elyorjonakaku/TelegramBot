@@ -1,8 +1,8 @@
 <?php
 $dbhost='localhost';
-$dbname='cajecsco_telegrambot';
-$dbuser='cajecsco';
-$dbpass='X2252DbGibi#M]';
+$dbname='dbname';
+$dbuser='username';
+$dbpass='********';
 
 
 
